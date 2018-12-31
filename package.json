@@ -12,7 +12,7 @@
     "compress": "node-sass css/style.css css/style.css --output-style compressed",
     "build": "npm-run-all compile prefix compress"
   },
-  "repository": "git@github.com:thomlom/scss-boilerplate.git",
+  "repository": "git@github.com:Nuzairb/huddleLandingPage.git",
   "author": "Nuzair Ibrahim <nuzairb@gmail.com>",
   "license": "MIT",
   "devDependencies": {
