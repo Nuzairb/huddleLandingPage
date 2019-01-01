@@ -1,12 +1,17 @@
-/*----------------------------
-===========COLORS=============
-----------------------------*/
 :root {
+  /*----------------------------
+  ===========COLORS=============
+  ----------------------------*/
   --color-pink: hsl(322, 100%, 66%);
   --color-very-pale-cyan: hsl(193, 100%, 96%);
   --color-very-dark-cyan: hsl(192, 100%, 9%);
   --color-grayish-blue: hsl(208, 11%, 55%);
-  --color-primary: var(--color-pink); }
+  --color-primary: var(--color-pink);
+  /*----------------------------
+  ===========FONTS=============
+  ----------------------------*/
+  --font-primary: 'Open Sans', sans-serif;
+  --font-display: 'Poppins', sans-serif; }
 
 * {
   margin: 0;
@@ -24,7 +29,32 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--font-primary);
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.6; }
+
+.container {
+  width: 100%;
+  max-width: 110rem;
+  margin: 0 auto; }
+
+.button {
+  display: inline-flex;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: var(--color-very-pale-cyan);
+  color: var(--color-very-dark-cyan);
+  border: none;
+  border-radius: .2rem;
+  cursor: pointer;
+  justify-content: center;
+  padding: 1.6rem 3.2rem;
+  height: 5rem;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 2rem;
+  font-weight: bold; }
+  .button:active {
+    outline: 0; }

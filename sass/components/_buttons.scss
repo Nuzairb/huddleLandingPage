@@ -1,0 +1,25 @@
+.button {
+    display: inline-flex;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--color-very-pale-cyan);
+    color: var(--color-very-dark-cyan);
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    justify-content: center;
+    padding: 1.6rem 3.2rem;
+	  height: 5rem;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 2rem;
+    font-weight: bold;
+
+    &:active {
+        outline: 0;
+    }
+
+    &::before {
+    }
+}
