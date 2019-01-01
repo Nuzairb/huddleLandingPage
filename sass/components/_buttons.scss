@@ -3,14 +3,14 @@
     &:link,
     &:visited {
         text-decoration: none;
-        padding: .8rem 4rem;
+        padding: 1rem 4rem;
         display: inline-block;
         border-radius: 10rem;
         transition: all .2s;
         position: relative;
         font-size: 1.6rem;
         font-weight: 700;
-        box-shadow: 0px 0px 22px 1px rgba($color-black, .2);
+        box-shadow: 0px 0px 25px 1.5px rgba($color-black, .2);
         //Change for the <button> element
         border: none;
         cursor: pointer;
@@ -43,6 +43,7 @@
     }
 
     &--pink {
+        padding: 2rem 14rem;
         background-color: var(--color-primary);
         color: $color-white;
 

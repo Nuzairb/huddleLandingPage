@@ -9,11 +9,16 @@ body {
 }
 .heading-primary {
   font-family: var(--fant-display);
+  font-size: 4.5rem;
+  line-height: 1.7;
   font-weight: 600;
   color: var(--color-very-dark-cyan);
   margin-bottom: 3rem;
 }
 
 .info-primary {
+  font-size: 2rem;
+  color: var(--color-very-dark-cyan);
+  line-height: 1.7;
   margin-bottom: 2.5rem;
 }
