@@ -11,8 +11,15 @@
   ===========FONTS=============
   ----------------------------*/
   --font-primary: 'Open Sans', sans-serif;
-  --font-display: 'Poppins', sans-serif; }
+  --font-display: 'Poppins', sans-serif;
+  --default-font-size: 1.8rem; }
 
+/*----------------------------
+===========COLORS=============
+----------------------------*/
+/*----------------------------
+===========GRID=============
+----------------------------*/
 * {
   margin: 0;
   padding: 0; }
@@ -30,31 +37,80 @@ html {
 
 body {
   font-family: var(--font-primary);
-  font-size: 1.8rem;
+  font-size: var(--default-font-size);
   font-weight: 400;
   line-height: 1.6; }
+
+.heading-primary {
+  font-family: var(--fant-display);
+  font-weight: 600;
+  color: var(--color-very-dark-cyan);
+  margin-bottom: 3rem; }
+
+.info-primary {
+  margin-bottom: 2.5rem; }
 
 .container {
   width: 100%;
   max-width: 110rem;
   margin: 0 auto; }
 
-.button {
-  display: inline-flex;
-  line-height: 16px;
-  text-transform: uppercase;
+.btn, .btn:link, .btn:visited {
   text-decoration: none;
-  background-color: var(--color-very-pale-cyan);
-  color: var(--color-very-dark-cyan);
+  padding: .8rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 700;
+  box-shadow: 0px 0px 22px 1px rgba(0, 0, 0, 0.2);
   border: none;
-  border-radius: .2rem;
-  cursor: pointer;
-  justify-content: center;
-  padding: 1.6rem 3.2rem;
-  height: 5rem;
-  text-align: center;
-  white-space: nowrap;
-  border-radius: 2rem;
-  font-weight: bold; }
-  .button:active {
-    outline: 0; }
+  cursor: pointer; }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
+
+.btn:active, .btn:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn--white {
+  background-color: #fff;
+  color: var(--color-very-dark-cyan); }
+  .btn--white::after {
+    background-color: #fff; }
+
+.btn--pink {
+  background-color: var(--color-primary);
+  color: #fff; }
+  .btn--pink::after {
+    background-color: var(--color-primary); }
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s; }
+
+.btn--animated {
+  animation: moveInBottom .5s ease-out .75s;
+  animation-fill-mode: backwards; }
+
+.header {
+  height: 100vh;
+  background-image: url(../../images/bg-hero-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  position: relative; }

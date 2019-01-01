@@ -7,3 +7,13 @@ body {
   font-weight: 400;
   line-height: 1.6;
 }
+.heading-primary {
+  font-family: var(--fant-display);
+  font-weight: 600;
+  color: var(--color-very-dark-cyan);
+  margin-bottom: 3rem;
+}
+
+.info-primary {
+  margin-bottom: 2.5rem;
+}
