@@ -10,10 +10,13 @@
   }
   &__heading {
     margin-left: 8rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-very-dark-cyan);
 
   }
   &__detail {
     margin-left: 8rem;
+    color: var(--color-grayish-blue);
   }
   &__img {
     img {

@@ -60,8 +60,8 @@ body {
 
 .heading-primary {
   font-family: var(--fant-display);
-  font-size: 4.5rem;
-  line-height: 1.7;
+  font-size: 4.2rem;
+  line-height: 1.6;
   font-weight: 600;
   color: var(--color-very-dark-cyan);
   margin-bottom: 3rem; }
@@ -140,9 +140,12 @@ body {
   .features-box__text {
     margin: 11rem auto; }
   .features-box__heading {
-    margin-left: 8rem; }
+    margin-left: 8rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-very-dark-cyan); }
   .features-box__detail {
-    margin-left: 8rem; }
+    margin-left: 8rem;
+    color: var(--color-grayish-blue); }
   .features-box__img img {
     margin: 3rem 10rem;
     width: 60%;
@@ -206,7 +209,7 @@ body {
     right: 6rem; }
   .header__text-box {
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 6rem;
     text-align: left; }
   .header__img-box {
