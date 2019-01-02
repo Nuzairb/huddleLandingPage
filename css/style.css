@@ -131,6 +131,23 @@ body {
   animation: moveInBottom .5s ease-out .75s;
   animation-fill-mode: backwards; }
 
+.features-box {
+  width: 90%;
+  margin: 6rem auto 2rem;
+  background: #fff;
+  box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; }
+  .features-box__text {
+    margin: 11rem auto; }
+  .features-box__heading {
+    margin-left: 8rem; }
+  .features-box__detail {
+    margin-left: 8rem; }
+  .features-box__img img {
+    margin: 3rem 10rem;
+    width: 60%;
+    text-align: right; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }

@@ -1,0 +1,25 @@
+.features-box {
+  width: 90%;
+  margin: 6rem auto 2rem;
+  background: $color-white;
+  box-shadow: 0 0 30px 1px
+              rgba(0,0,0, .10);
+  border-radius: 10px;
+  &__text {
+    margin: 11rem auto;
+  }
+  &__heading {
+    margin-left: 8rem;
+
+  }
+  &__detail {
+    margin-left: 8rem;
+  }
+  &__img {
+    img {
+      margin: 3rem 10rem;
+      width: 60%;
+      text-align: right;
+    }
+  }
+}
