@@ -1,14 +1,17 @@
 .cta {
-  width: 50rem;
-  height: 20rem;
+  width: 60rem;
+  height: 21rem;
   border-radius: 1rem;
   margin: 0 auto;
   box-shadow: 0 0 30px 1px
               rgba(0,0,0, .10);
   &__title {
     padding-top: 5rem;
+    text-align: center;
   }
   &__btn {
+    margin: 2rem 16rem;
+    padding: 2rem 7rem;
     text-align: center;
   }
 }

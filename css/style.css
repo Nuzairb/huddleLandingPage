@@ -152,13 +152,18 @@ body {
     text-align: right; }
 
 .cta {
-  width: 50rem;
-  height: 20rem;
+  width: 60rem;
+  height: 21rem;
   border-radius: 1rem;
   margin: 0 auto;
   box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.1); }
   .cta__title {
-    padding-top: 5rem; }
+    padding-top: 5rem;
+    text-align: center; }
+  .cta__btn {
+    margin: 2rem 16rem;
+    padding: 2rem 7rem;
+    text-align: center; }
 
 .row {
   max-width: 114rem;
