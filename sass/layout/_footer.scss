@@ -1,4 +1,27 @@
 .footer {
   background-color: var(--color-very-dark-cyan);
   padding: 10rem 0;
+  &__logo {
+
+  }
+  &__icon {
+    padding-top: 5rem;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 8%;
+    float: left;
+  }
+  &__col-1 {
+
+  }
+  &__col-2 {
+
+  }
+  &__col-3 {
+
+  }
+  &__col-4 {
+
+  }
 }
