@@ -1,10 +1,14 @@
 .cta {
+  background: $color-white;
   width: 60rem;
   height: 21rem;
   border-radius: 1rem;
   margin: 0 auto;
   box-shadow: 0 0 30px 1px
               rgba(0,0,0, .10);
+  position: relative;
+  top: 10rem;
+  z-index: 1;
   &__title {
     padding-top: 5rem;
     text-align: center;
