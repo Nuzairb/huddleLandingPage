@@ -2,18 +2,23 @@
   background-color: var(--color-very-dark-cyan);
   padding: 10rem 0;
   &__logo {
-
+    margin-bottom: 3rem;
   }
   &__icon {
-    padding-top: 5rem;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 8%;
-    float: left;
+    margin: 2rem;
   }
   &__col-1 {
-
+    ul {
+      li {
+        color: $color-white;
+        font-size: 1.4rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        align-content: center;
+      }
+    }
   }
   &__col-2 {
 
